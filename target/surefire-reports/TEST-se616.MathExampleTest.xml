@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="se616.MathExampleTest" time="0.56" tests="201" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ashif\IdeaProjects\SE616_java8_assignments\target\test-classes;C:\Users\ashif\IdeaProjects\SE616_java8_assignments\target\classes;C:\Users\ashif\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\ashif\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\ashif\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ashif\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\ashif\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ashif\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\ashif\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M9\maven-surefire-plugin-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M9\maven-surefire-common-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M9\surefire-api-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M9\surefire-extensions-api-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M9\surefire-booter-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M9\surefire-extensions-spi-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\ashif\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\ashif\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\ashif\.m2\repository\org\eclipse\aether\aether-api\0.9.0.M2\aether-api-0.9.0.M2.jar;C:\Users\ashif\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar;C:\Users\ashif\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\ashif\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\ashif\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\ashif\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ashif\.m2\repository\com\google\guava\guava\10.0.1\guava-10.0.1.jar;C:\Users\ashif\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ashif\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\ashif\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ashif\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\ashif\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\ashif\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\ashif\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\ashif\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-java\1.1.2\plexus-java-1.1.2.jar;C:\Users\ashif\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\ashif\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M9\surefire-shared-utils-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\plugins\maven-failsafe-plugin\3.0.0-M9\maven-failsafe-plugin-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\plugins\maven-surefire-report-plugin\3.0.0-M9\maven-surefire-report-plugin-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-report-parser\3.0.0-M9\surefire-report-parser-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M9\surefire-logger-api-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.11.1\doxia-sink-api-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.11.1\doxia-logging-api-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-core\1.11.1\doxia-core-1.11.1.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-container-default\2.1.0\plexus-container-default-2.1.0.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\ashif\.m2\repository\org\apache\xbean\xbean-reflect\3.7\xbean-reflect-3.7.jar;C:\Users\ashif\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-component-annotations\2.1.0\plexus-component-annotations-2.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\ashif\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\ashif\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ashif\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ashif\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ashif\.m2\repository\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar;C:\Users\ashif\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.1.1\maven-reporting-api-3.1.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.2.0\maven-reporting-impl-3.2.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.11.1\doxia-decoration-model-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-integration-tools\1.11.1\doxia-integration-tools-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-10\plexus-i18n-1.0-beta-10.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.26\plexus-interpolation-1.26.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.11.1\doxia-site-renderer-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.11.1\doxia-skin-model-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.11.1\doxia-module-xhtml-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml5\1.11.1\doxia-module-xhtml5-1.11.1.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar;C:\Users\ashif\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\ashif\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\ashif\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\ashif\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\ashif\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\ashif\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\ashif\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\ashif\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\ashif\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\ashif\AppData\Local\Temp\surefire4963233791803087587\surefirebooter-20230218145802969_3.jar C:\Users\ashif\AppData\Local\Temp\surefire4963233791803087587 2023-02-18T14-58-02_593-jvmRun1 surefire-20230218145802969_1tmp surefire_0-20230218145802969_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ashif\IdeaProjects\SE616_java8_assignments\target\test-classes;C:\Users\ashif\IdeaProjects\SE616_java8_assignments\target\classes;C:\Users\ashif\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\ashif\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\ashif\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ashif\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\ashif\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ashif\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\ashif\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M9\maven-surefire-plugin-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M9\maven-surefire-common-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M9\surefire-api-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M9\surefire-extensions-api-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M9\surefire-booter-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M9\surefire-extensions-spi-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\ashif\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\ashif\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\ashif\.m2\repository\org\eclipse\aether\aether-api\0.9.0.M2\aether-api-0.9.0.M2.jar;C:\Users\ashif\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar;C:\Users\ashif\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\ashif\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\ashif\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\ashif\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ashif\.m2\repository\com\google\guava\guava\10.0.1\guava-10.0.1.jar;C:\Users\ashif\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ashif\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\ashif\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ashif\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\ashif\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\ashif\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\ashif\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\ashif\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-java\1.1.2\plexus-java-1.1.2.jar;C:\Users\ashif\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\ashif\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M9\surefire-shared-utils-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\plugins\maven-failsafe-plugin\3.0.0-M9\maven-failsafe-plugin-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\plugins\maven-surefire-report-plugin\3.0.0-M9\maven-surefire-report-plugin-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-report-parser\3.0.0-M9\surefire-report-parser-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M9\surefire-logger-api-3.0.0-M9.jar;C:\Users\ashif\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.11.1\doxia-sink-api-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.11.1\doxia-logging-api-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-core\1.11.1\doxia-core-1.11.1.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-container-default\2.1.0\plexus-container-default-2.1.0.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\ashif\.m2\repository\org\apache\xbean\xbean-reflect\3.7\xbean-reflect-3.7.jar;C:\Users\ashif\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-component-annotations\2.1.0\plexus-component-annotations-2.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\ashif\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\ashif\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ashif\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ashif\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ashif\.m2\repository\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar;C:\Users\ashif\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.1.1\maven-reporting-api-3.1.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.2.0\maven-reporting-impl-3.2.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.11.1\doxia-decoration-model-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-integration-tools\1.11.1\doxia-integration-tools-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-10\plexus-i18n-1.0-beta-10.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.26\plexus-interpolation-1.26.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.11.1\doxia-site-renderer-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.11.1\doxia-skin-model-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.11.1\doxia-module-xhtml-1.11.1.jar;C:\Users\ashif\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml5\1.11.1\doxia-module-xhtml5-1.11.1.jar;C:\Users\ashif\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar;C:\Users\ashif\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\ashif\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\ashif\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\ashif\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\ashif\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\ashif\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\ashif\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\ashif\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\ashif\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ashif"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ashif\IdeaProjects\SE616_java8_assignments"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ashif\AppData\Local\Temp\surefire4963233791803087587\surefirebooter-20230218145802969_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="ashif"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ashif\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ashif\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="C:\Users\ashif\IdeaProjects\SE616_java8_assignments"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\maven\apache-maven-3.9.0\bin;C:\Users\ashif\AppData\Local\Microsoft\WindowsApps;C:\Users\ashif\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ashif\AppData\Roaming\npm;C:\Users\ashif\AppData\Local\GitHubDesktop\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="testZeroResult" classname="se616.MathExampleTest" time="0.033">
+    <system-out><![CDATA[Two inputs created Input1 is -170 Input2 is 111
+The test has passed. The output of the component is 0
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.005">
+    <system-out><![CDATA[Two inputs created Input1 is 136 Input2 is 624
+The test has passed. The output of the component is 760
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 444 Input2 is 616
+The test has passed. The output of the component is 1060
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.004">
+    <system-out><![CDATA[Two inputs created Input1 is -609 Input2 is 35
+The test has passed. The output of the component is -574
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -239 Input2 is 60
+The test has passed. The output of the component is -179
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.003">
+    <system-out><![CDATA[Two inputs created Input1 is -870 Input2 is -510
+The test has passed. The output of the component is -1380
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -672 Input2 is 297
+The test has passed. The output of the component is -375
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 240 Input2 is 746
+The test has passed. The output of the component is 986
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -434 Input2 is -833
+The test has passed. The output of the component is -1267
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.004">
+    <system-out><![CDATA[Two inputs created Input1 is 86 Input2 is -947
+The test has passed. The output of the component is -861
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 730 Input2 is 801
+The test has passed. The output of the component is 1531
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -778 Input2 is -218
+The test has passed. The output of the component is -996
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 625 Input2 is 599
+The test has passed. The output of the component is 1224
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 436 Input2 is -971
+The test has passed. The output of the component is -535
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -979 Input2 is -259
+The test has passed. The output of the component is -1238
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 384 Input2 is 516
+The test has passed. The output of the component is 900
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -792 Input2 is -65
+The test has passed. The output of the component is -857
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 315 Input2 is 524
+The test has passed. The output of the component is 839
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -319 Input2 is 898
+The test has passed. The output of the component is 579
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.003">
+    <system-out><![CDATA[Two inputs created Input1 is 151 Input2 is -608
+The test has passed. The output of the component is -457
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 782 Input2 is -599
+The test has passed. The output of the component is 183
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 984 Input2 is 279
+The test has passed. The output of the component is 1263
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 6 Input2 is -394
+The test has passed. The output of the component is -388
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -200 Input2 is -820
+The test has passed. The output of the component is -1020
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 628 Input2 is -416
+The test has passed. The output of the component is 212
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -610 Input2 is 377
+The test has passed. The output of the component is -233
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 199 Input2 is 29
+The test has passed. The output of the component is 228
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -703 Input2 is -486
+The test has passed. The output of the component is -1189
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -681 Input2 is 563
+The test has passed. The output of the component is -118
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 298 Input2 is -962
+The test has passed. The output of the component is -664
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 548 Input2 is -164
+The test has passed. The output of the component is 384
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -296 Input2 is -618
+The test has passed. The output of the component is -914
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 694 Input2 is 833
+The test has passed. The output of the component is 1527
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -703 Input2 is -359
+The test has passed. The output of the component is -1062
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 723 Input2 is 921
+The test has passed. The output of the component is 1644
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is 776 Input2 is 961
+The test has passed. The output of the component is 1737
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -730 Input2 is -123
+The test has passed. The output of the component is -853
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -546 Input2 is -625
+The test has passed. The output of the component is -1171
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 263 Input2 is -255
+The test has passed. The output of the component is 8
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -588 Input2 is -487
+The test has passed. The output of the component is -1075
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -672 Input2 is 360
+The test has passed. The output of the component is -312
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 113 Input2 is -555
+The test has passed. The output of the component is -442
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 933 Input2 is -468
+The test has passed. The output of the component is 465
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -800 Input2 is 490
+The test has passed. The output of the component is -310
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 862 Input2 is 27
+The test has passed. The output of the component is 889
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 400 Input2 is -773
+The test has passed. The output of the component is -373
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -343 Input2 is -793
+The test has passed. The output of the component is -1136
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -386 Input2 is -829
+The test has passed. The output of the component is -1215
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.003">
+    <system-out><![CDATA[Two inputs created Input1 is 926 Input2 is 873
+The test has passed. The output of the component is 1799
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 906 Input2 is 4
+The test has passed. The output of the component is 910
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 59 Input2 is 318
+The test has passed. The output of the component is 377
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -18 Input2 is 171
+The test has passed. The output of the component is 153
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.003">
+    <system-out><![CDATA[Two inputs created Input1 is 169 Input2 is 994
+The test has passed. The output of the component is 1163
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -365 Input2 is 859
+The test has passed. The output of the component is 494
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 957 Input2 is 746
+The test has passed. The output of the component is 1703
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 291 Input2 is -800
+The test has passed. The output of the component is -509
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 821 Input2 is -42
+The test has passed. The output of the component is 779
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 593 Input2 is -54
+The test has passed. The output of the component is 539
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 366 Input2 is -739
+The test has passed. The output of the component is -373
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -383 Input2 is -314
+The test has passed. The output of the component is -697
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 840 Input2 is 958
+The test has passed. The output of the component is 1798
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -430 Input2 is 530
+The test has passed. The output of the component is 100
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 883 Input2 is -432
+The test has passed. The output of the component is 451
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -506 Input2 is 875
+The test has passed. The output of the component is 369
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -555 Input2 is -820
+The test has passed. The output of the component is -1375
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 230 Input2 is 304
+The test has passed. The output of the component is 534
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 940 Input2 is -133
+The test has passed. The output of the component is 807
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 671 Input2 is 207
+The test has passed. The output of the component is 878
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 876 Input2 is 671
+The test has passed. The output of the component is 1547
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -463 Input2 is -291
+The test has passed. The output of the component is -754
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 485 Input2 is 988
+The test has passed. The output of the component is 1473
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -998 Input2 is -87
+The test has passed. The output of the component is -1085
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -879 Input2 is -677
+The test has passed. The output of the component is -1556
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 716 Input2 is -679
+The test has passed. The output of the component is 37
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 199 Input2 is -397
+The test has passed. The output of the component is -198
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 313 Input2 is -99
+The test has passed. The output of the component is 214
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 854 Input2 is -190
+The test has passed. The output of the component is 664
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -423 Input2 is -626
+The test has passed. The output of the component is -1049
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -370 Input2 is -39
+The test has passed. The output of the component is -409
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 201 Input2 is 737
+The test has passed. The output of the component is 938
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 406 Input2 is 267
+The test has passed. The output of the component is 673
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 846 Input2 is -181
+The test has passed. The output of the component is 665
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -525 Input2 is -522
+The test has passed. The output of the component is -1047
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 789 Input2 is -887
+The test has passed. The output of the component is -98
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -360 Input2 is -452
+The test has passed. The output of the component is -812
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 713 Input2 is 520
+The test has passed. The output of the component is 1233
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -853 Input2 is 618
+The test has passed. The output of the component is -235
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 26 Input2 is -104
+The test has passed. The output of the component is -78
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is 48 Input2 is 319
+The test has passed. The output of the component is 367
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 667 Input2 is -178
+The test has passed. The output of the component is 489
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -377 Input2 is -404
+The test has passed. The output of the component is -781
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -857 Input2 is -161
+The test has passed. The output of the component is -1018
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 669 Input2 is -851
+The test has passed. The output of the component is -182
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -624 Input2 is 417
+The test has passed. The output of the component is -207
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -659 Input2 is 605
+The test has passed. The output of the component is -54
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 916 Input2 is -116
+The test has passed. The output of the component is 800
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -242 Input2 is 73
+The test has passed. The output of the component is -169
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 550 Input2 is 444
+The test has passed. The output of the component is 994
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -723 Input2 is -672
+The test has passed. The output of the component is -1395
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -203 Input2 is -498
+The test has passed. The output of the component is -701
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -552 Input2 is -523
+The test has passed. The output of the component is -1075
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 120 Input2 is -701
+The test has passed. The output of the component is -581
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -819 Input2 is 287
+The test has passed. The output of the component is -532
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -454 Input2 is -116
+The test has passed. The output of the component is -570
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 290 Input2 is 102
+The test has passed. The output of the component is 392
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 858 Input2 is 286
+The test has passed. The output of the component is 1144
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is 63 Input2 is 809
+The test has passed. The output of the component is 872
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -530 Input2 is -510
+The test has passed. The output of the component is -1040
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -238 Input2 is 231
+The test has passed. The output of the component is -7
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -848 Input2 is -793
+The test has passed. The output of the component is -1641
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 356 Input2 is -708
+The test has passed. The output of the component is -352
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 896 Input2 is 365
+The test has passed. The output of the component is 1261
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -906 Input2 is -645
+The test has passed. The output of the component is -1551
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -474 Input2 is -849
+The test has passed. The output of the component is -1323
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -389 Input2 is 90
+The test has passed. The output of the component is -299
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 707 Input2 is 586
+The test has passed. The output of the component is 1293
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 775 Input2 is -325
+The test has passed. The output of the component is 450
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.003">
+    <system-out><![CDATA[Two inputs created Input1 is 426 Input2 is 700
+The test has passed. The output of the component is 1126
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -732 Input2 is -922
+The test has passed. The output of the component is -1654
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is 992 Input2 is 545
+The test has passed. The output of the component is 1537
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 77 Input2 is 834
+The test has passed. The output of the component is 911
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 403 Input2 is 908
+The test has passed. The output of the component is 1311
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 366 Input2 is 743
+The test has passed. The output of the component is 1109
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -971 Input2 is -257
+The test has passed. The output of the component is -1228
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -654 Input2 is 885
+The test has passed. The output of the component is 231
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 707 Input2 is 204
+The test has passed. The output of the component is 911
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -829 Input2 is -95
+The test has passed. The output of the component is -924
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.003">
+    <system-out><![CDATA[Two inputs created Input1 is 283 Input2 is -31
+The test has passed. The output of the component is 252
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 916 Input2 is -421
+The test has passed. The output of the component is 495
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -715 Input2 is -277
+The test has passed. The output of the component is -992
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -994 Input2 is -348
+The test has passed. The output of the component is -1342
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is 451 Input2 is -257
+The test has passed. The output of the component is 194
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -640 Input2 is -831
+The test has passed. The output of the component is -1471
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -36 Input2 is 207
+The test has passed. The output of the component is 171
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -498 Input2 is -544
+The test has passed. The output of the component is -1042
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 347 Input2 is 894
+The test has passed. The output of the component is 1241
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 428 Input2 is -708
+The test has passed. The output of the component is -280
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -481 Input2 is 255
+The test has passed. The output of the component is -226
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -766 Input2 is 473
+The test has passed. The output of the component is -293
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -132 Input2 is -354
+The test has passed. The output of the component is -486
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 186 Input2 is 366
+The test has passed. The output of the component is 552
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 47 Input2 is 678
+The test has passed. The output of the component is 725
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 998 Input2 is -489
+The test has passed. The output of the component is 509
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -676 Input2 is 297
+The test has passed. The output of the component is -379
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -288 Input2 is -191
+The test has passed. The output of the component is -479
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -967 Input2 is -469
+The test has passed. The output of the component is -1436
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 530 Input2 is 542
+The test has passed. The output of the component is 1072
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 324 Input2 is 436
+The test has passed. The output of the component is 760
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -507 Input2 is 127
+The test has passed. The output of the component is -380
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -93 Input2 is -143
+The test has passed. The output of the component is -236
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -749 Input2 is 603
+The test has passed. The output of the component is -146
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -440 Input2 is -558
+The test has passed. The output of the component is -998
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -740 Input2 is 730
+The test has passed. The output of the component is -10
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -10 Input2 is 715
+The test has passed. The output of the component is 705
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 607 Input2 is 403
+The test has passed. The output of the component is 1010
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -842 Input2 is -786
+The test has passed. The output of the component is -1628
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is 622 Input2 is -108
+The test has passed. The output of the component is 514
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -985 Input2 is -759
+The test has passed. The output of the component is -1744
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is 24 Input2 is 97
+The test has passed. The output of the component is 121
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 458 Input2 is 804
+The test has passed. The output of the component is 1262
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -455 Input2 is 74
+The test has passed. The output of the component is -381
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -685 Input2 is -816
+The test has passed. The output of the component is -1501
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -613 Input2 is 336
+The test has passed. The output of the component is -277
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 167 Input2 is -758
+The test has passed. The output of the component is -591
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 722 Input2 is -934
+The test has passed. The output of the component is -212
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 282 Input2 is -481
+The test has passed. The output of the component is -199
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 105 Input2 is -344
+The test has passed. The output of the component is -239
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is 919 Input2 is 418
+The test has passed. The output of the component is 1337
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -255 Input2 is -46
+The test has passed. The output of the component is -301
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 780 Input2 is 848
+The test has passed. The output of the component is 1628
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -411 Input2 is -149
+The test has passed. The output of the component is -560
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 594 Input2 is -836
+The test has passed. The output of the component is -242
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -529 Input2 is 424
+The test has passed. The output of the component is -105
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -775 Input2 is 237
+The test has passed. The output of the component is -538
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -382 Input2 is 755
+The test has passed. The output of the component is 373
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -674 Input2 is -587
+The test has passed. The output of the component is -1261
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -321 Input2 is -946
+The test has passed. The output of the component is -1267
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is 636 Input2 is -603
+The test has passed. The output of the component is 33
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 936 Input2 is -476
+The test has passed. The output of the component is 460
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 390 Input2 is -615
+The test has passed. The output of the component is -225
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -469 Input2 is -719
+The test has passed. The output of the component is -1188
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is -46 Input2 is 392
+The test has passed. The output of the component is 346
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.002">
+    <system-out><![CDATA[Two inputs created Input1 is 405 Input2 is 733
+The test has passed. The output of the component is 1138
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -756 Input2 is 137
+The test has passed. The output of the component is -619
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -809 Input2 is -59
+The test has passed. The output of the component is -868
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 110 Input2 is -173
+The test has passed. The output of the component is -63
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -132 Input2 is -862
+The test has passed. The output of the component is -994
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is 55 Input2 is 408
+The test has passed. The output of the component is 463
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -765 Input2 is -654
+The test has passed. The output of the component is -1419
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -183 Input2 is -540
+The test has passed. The output of the component is -723
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 109 Input2 is -771
+The test has passed. The output of the component is -662
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -571 Input2 is 126
+The test has passed. The output of the component is -445
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -331 Input2 is 314
+The test has passed. The output of the component is -17
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 811 Input2 is -202
+The test has passed. The output of the component is 609
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is -712 Input2 is -848
+The test has passed. The output of the component is -1560
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 1 Input2 is -111
+The test has passed. The output of the component is -110
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is 115 Input2 is 676
+The test has passed. The output of the component is 791
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -601 Input2 is -49
+The test has passed. The output of the component is -650
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is 786 Input2 is -701
+The test has passed. The output of the component is 85
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0">
+    <system-out><![CDATA[Two inputs created Input1 is -904 Input2 is -805
+The test has passed. The output of the component is -1709
+==========================================================
+]]></system-out>
+  </testcase>
+  <testcase name="testInputsVSOutputs" classname="se616.MathExampleTest" time="0.001">
+    <system-out><![CDATA[Two inputs created Input1 is 959 Input2 is 843
+The test has passed. The output of the component is 1802
+==========================================================
+]]></system-out>
+  </testcase>
+</testsuite>
