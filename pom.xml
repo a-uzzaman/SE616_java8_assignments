@@ -57,6 +57,9 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-report-plugin</artifactId>
         <version>3.0.0-M9</version>
+        <configuration>
+          <outputName>JUnit-Test-Report</outputName>
+        </configuration>
       </plugin>
     </plugins>
   </reporting>
