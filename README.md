@@ -1,4 +1,6 @@
-# SE616_java8_assignments
+# SE616_java8_assignments 
+# Name:- Ashif Uzzaman 
+# Email- au66159n@pace.edu
 ## Description
 ### This is a JUnit5 Testing repository for SE616 Class
 ## Pre Requisites
